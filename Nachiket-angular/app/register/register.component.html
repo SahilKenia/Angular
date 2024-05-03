@@ -1,0 +1,17 @@
+<div class="head_text">Please enter your Information</div>
+<div class="my_div">
+
+  <form (ngSubmit)="onSubmit()">
+  <div class="form_head">Registration Form</div>
+  <label for="name" class="formlabel">Name</label>
+  <input type="text" placeholder="Enter Name" id="name" class="form-control" name="name" [(ngModel)]="name">
+  <br>
+  <label for="email" class="formlabel">Email</label>
+  <input type="email" placeholder="Enter Email" id="email" class="form-control" name="email" [(ngModel)]="email">
+  <br>
+  <label for="password" class="formlabel">Password</label>
+  <input type="password" placeholder="Enter Password" id="password" class="form-control" name="password" [(ngModel)]="password">
+  <br>
+  <input type="submit" id="mybtn" class="form-control">
+  </form>
+</div>
